@@ -1,10 +1,4 @@
 ---
-title: Hey there!
+title: شروع
 ---
-This is a test on my first publish.
-
-# Back Link
-From here you can go to [[index]]
-
-## Farsi
-[[Farsi]]
+هر اقدامی نقطه صفری دارد. مهم نیست چقدر [[نقطه صفر]] من ناقص و پر ز اشکال است؛ مهم آنست که من شروع کردم.
