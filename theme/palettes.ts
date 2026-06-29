@@ -410,10 +410,34 @@ export const colorPalettes = {
       textHighlight: "rgba(255, 193, 7, 0.3)",
     },
   },
+  iFard: {
+    lightMode: {
+      light: "#f9f1e9",
+      lightgray: "#e3d3c2",
+      gray: "#9e9a97",
+      darkgray: "#383736",
+      dark: "#1f1e1d",
+      secondary: "#e37b3e",
+      tertiary: "#e36d28",
+      highlight: "#ee5a2521",
+      textHighlight: "#fff23688",
+    },
+    darkMode: {
+      light: "#1e1e1e",
+      lightgray: "#383838",
+      gray: "#646464",
+      darkgray: "#e6e7f7",
+      dark: "#f7f8ff",
+      secondary: "#ffa06a",
+      tertiary: "#ef7732",
+      highlight: "#ee5a252b",
+      textHighlight: "#b3aa0288",
+    },
+  },
 }
 
 // Select your desired palette here
 // Available palettes: original, coolBlues, warmEarth, forestGreen, royalPurple, oceanicTeal, monochrome, vintageCream, devDark, oceanVibes, halloween, neon, sunset, persianAzure, sakuraDreams, cyberpunkCity, autumnGrove
 // type PaletteName = keyof typeof colorPalettes; // This line might cause issues with older TS
 
-export const currentPaletteName: keyof typeof colorPalettes = "oceanVibes"
+export const currentPaletteName: keyof typeof colorPalettes = "iFard"

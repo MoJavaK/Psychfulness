@@ -1,13 +1,13 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: بلاگ من
+  pageTitle: روان آگاهی
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
   analytics:
     provider: plausible
   locale: fa-IR
-  baseUrl: quartz.jzhao.xyz
+  baseUrl: mojavak.github.io/psychfulness
   ignorePatterns:
     - private
     - templates
@@ -21,25 +21,25 @@ configuration:
       code: IBM Plex Mono
     colors:
       lightMode:
-        light: "#FAF0E6"
-        lightgray: "#F0E6D8"
-        gray: "#D8C8B8"
-        darkgray: "#B08D57"
-        dark: "#5C3A1A"
-        secondary: "#2A9D8F"
-        tertiary: "#DAA520"
-        highlight: rgba(42, 157, 143, 0.1)
-        textHighlight: rgba(42, 157, 143, 0.25)
+        light: "#f9f1e9"
+        lightgray: "#e3d3c2"
+        gray: "#9e9a97"
+        darkgray: "#383736"
+        dark: "#1f1e1d"
+        secondary: "#e37b3e"
+        tertiary: "#e36d28"
+        highlight: "#ee5a2521"
+        textHighlight: "#fff23688"
       darkMode:
-        light: "#08304A"
-        lightgray: "#001F33"
-        gray: "#307879"
-        darkgray: "#D8C8B8"
-        dark: "#FAF0E6"
-        secondary: "#FFD700"
-        tertiary: "#70CAD1"
-        highlight: rgba(255, 215, 0, 0.1)
-        textHighlight: rgba(255, 215, 0, 0.3)
+        light: "#1e1e1e"
+        lightgray: "#383838"
+        gray: "#646464"
+        darkgray: "#e6e7f7"
+        dark: "#f7f8ff"
+        secondary: "#ffa06a"
+        tertiary: "#ef7732"
+        highlight: "#ee5a252b"
+        textHighlight: "#b3aa0288"
 plugins:
   - source: github:quartz-community/created-modified-date
     enabled: true
@@ -200,7 +200,7 @@ plugins:
     enabled: true
     options:
       links:
-        GitHub: https://github.com/eledah/quartz
+        GitHub: https://github.com/mojavak
   - source: github:quartz-community/recent-notes
     enabled: false
   - source: github:quartz-community/spacer

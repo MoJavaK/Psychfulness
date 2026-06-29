@@ -1,0 +1,9 @@
+views:
+  - type: cards
+    name: Table
+    filters:
+      or:
+        - file.name == "شناخت انسان"
+        - file.name == "محمدجواد"
+    image: note.Image
+    imageAspectRatio: 0.65
