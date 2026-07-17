@@ -74,9 +74,16 @@ plugins:
     enabled: true
     order: 50
     layout:
-      position: right
-      priority: 30
+      position: left
+      priority: 60
       display: desktop-only
+  - source: github:quartz-community/table-of-contents
+    enabled: true
+    order: 50
+    layout:
+      position: beforeBody
+      priority: 60
+      display: mobile-only
   - source: github:quartz-community/crawl-links
     enabled: true
     options:
@@ -103,13 +110,13 @@ plugins:
     enabled: false
     order: 92
   - source: github:quartz-community/fonts
-    enabled: true
+    enabled: false
   - source: github:quartz-community/remove-draft
     enabled: true
   - source: github:quartz-community/explicit-publish
     enabled: false
   - source: github:quartz-community/alias-redirects
-    enabled: true
+    enabled: false
   - source: github:quartz-community/content-index
     enabled: true
     options:
@@ -130,7 +137,7 @@ plugins:
   - source: github:quartz-community/tag-page
     enabled: true
   - source: github:quartz-community/explorer
-    enabled: true
+    enabled: false
     layout:
       position: left
       priority: 50
@@ -142,7 +149,7 @@ plugins:
   - source: github:quartz-community/search
     enabled: true
     layout:
-      position: left
+      position: afterBody
       priority: 20
       group: toolbar
       groupOptions:
@@ -150,7 +157,7 @@ plugins:
   - source: github:quartz-community/backlinks
     enabled: true
     layout:
-      position: right
+      position: afterBody
       priority: 50
   - source: github:quartz-community/article-title
     enabled: true
@@ -158,7 +165,7 @@ plugins:
       position: beforeBody
       priority: 10
   - source: github:quartz-community/content-meta
-    enabled: true
+    enabled: false
     layout:
       position: beforeBody
       priority: 20
@@ -170,22 +177,23 @@ plugins:
   - source: github:quartz-community/page-title
     enabled: true
     layout:
-      position: left
+      position: afterBody
       priority: 10
+      group: toolbar
   - source: github:quartz-community/darkmode
     enabled: true
     layout:
-      position: left
+      position: afterBody
       priority: 30
       group: toolbar
   - source: github:quartz-community/reader-mode
     enabled: true
     layout:
-      position: left
+      position: afterBody
       priority: 35
       group: toolbar
   - source: github:quartz-community/breadcrumbs
-    enabled: true
+    enabled: false
     layout:
       position: beforeBody
       priority: 5
@@ -297,7 +305,7 @@ plugins:
 layout:
   groups:
     toolbar:
-      priority: 35
+      priority: 5
       direction: row
       gap: 0.5rem
   byPageType:
@@ -318,4 +326,5 @@ layout:
       positions:
         right: []
     canvas: {}
-    bases: {}
+    bases:
+      template: minimal
