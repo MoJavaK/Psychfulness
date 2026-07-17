@@ -286,6 +286,14 @@ plugins:
       linkCitations: false
       csl: apa
     order: 85
+  - source: github:fardm/quartz-content-meta-plus
+    enabled: true
+    options:
+      showComma: false
+      showReadingTime: false
+    layout:
+        position: beforeBody
+    priority: 20
 layout:
   groups:
     toolbar:

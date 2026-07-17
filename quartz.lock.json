@@ -205,6 +205,12 @@
       "commit": "a1c1fe0a9c6a5ce1acf6efa01d473a7d9850e2a3",
       "installedAt": "2026-06-03T13:32:36.002Z"
     },
+    "quartz-content-meta-plus": {
+      "source": "github:fardm/quartz-content-meta-plus",
+      "resolved": "https://github.com/fardm/quartz-content-meta-plus.git",
+      "commit": "a030f69385637dc3e7db1d67a166784213d3143d",
+      "installedAt": "2026-07-17T22:19:47.430Z"
+    },
     "quartz-themes": {
       "source": {
         "name": "quartz-themes",
