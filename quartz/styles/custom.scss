@@ -107,3 +107,82 @@ blockquote {
     }
   }
 }
+/* ===============================
+   Reference Blog Base Styling
+   =============================== */
+
+:root {
+
+  --page-width: 1200px;
+
+  --body-font: "Vazirmatn", sans-serif;
+  --header-font: "Vazirmatn", sans-serif;
+
+  --background-primary: #ffffff;
+  --background-secondary: #f7f7f7;
+
+  --text-normal: #333333;
+  --text-muted: #777777;
+
+  --link-color: #2563eb;
+
+  --border-color: #e5e7eb;
+
+}
+
+
+/* Main reading area */
+
+.page {
+
+  max-width: var(--page-width);
+
+}
+
+
+/* Article text */
+
+article {
+
+  font-size: 1.05rem;
+
+  line-height: 1.9;
+
+}
+
+
+/* Headings */
+
+h1 {
+
+  font-size: 2.2rem;
+  line-height: 1.3;
+
+}
+
+
+h2 {
+
+  margin-top: 2.5rem;
+
+}
+
+
+/* Rounded elements */
+
+.card,
+.callout,
+blockquote {
+
+  border-radius: 12px;
+
+}
+
+
+/* Images */
+
+img {
+
+  border-radius: 12px;
+
+}
