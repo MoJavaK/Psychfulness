@@ -13,7 +13,7 @@ cssclasses:
   - nowarp2
   - c3-4
   - fit-cover
-draft: false
+draft: true
 image: "[[reports.webp]]"
 ---
 
