@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: fa-IR
-  baseUrl: mojavak.github.io/psychfulness
+  baseUrl: ravanagahi.ir
   ignorePatterns:
     - private
     - templates

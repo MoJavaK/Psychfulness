@@ -5,7 +5,7 @@ body::before {
     pointer-events: none;
     opacity: var(--grain-opacity);
     z-index: -99;
-    background-image: url(/psychfulness/static/grain.webp);
+    background-image: url("/static/grain.webp");
     background-repeat: repeat;
     position: fixed;
     inset: 0;
@@ -96,7 +96,7 @@ div.flex-component:has(.page-title) > div {
         height: 1.8em;
         margin-left: 0.3rem;
         vertical-align: middle;
-        background-image: url("/psychfulness/static/avatar.webp");
+        background-image: url("/static/avatar.webp");
         background-size: cover;
         background-repeat: no-repeat;
         // background-color: var(--secondary);
