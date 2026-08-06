@@ -73,10 +73,40 @@
   } 
   
   &[data-callout^="brown"] {
-    --color: #b38247;
+    --color: #75562e;
     --border: #b382476b;
     --bg: #b382470a;
   }  
+
+  // ================ رنگ محتوای کال‌اوت‌ها ================
+  
+  // کال‌اوت‌های رنگی - محتوا همرنگ عنوان
+  &:is(
+    [data-callout^="yellow"],
+    [data-callout^="orange"],
+    [data-callout^="red"],
+    [data-callout^="blue"],
+    [data-callout^="green"],
+    [data-callout^="purple"],
+    [data-callout^="brown"]
+  ) {
+    .callout-content p {
+      color: var(--color);
+    }
+  }
+  
+  // کال‌اوت‌های خنثی - محتوای تیره
+  &:is(
+    [data-callout="quote"],
+    [data-callout="poem"],
+    [data-callout^="en"],
+    [data-callout^="gray"],
+    [data-callout^="empty"]
+  ) {
+    .callout-content p {
+      color: var(--dark);
+    }
+  }
 
   //  مخفی کردن آیکون‌
   &:is(.empty, .gray, .yellow, .orange, .blue, .green, .purple, .brown, .red, .poem, .en) {
