@@ -94,6 +94,25 @@
       padding-top: 1rem;
     }
   }
+
+  // تغییرات سری۱
+  &:is(.empty1, .gray1, .yellow1, .orange1, .blue1, .green1, .purple1, .brown1, .red1, .poem1, .en1) {
+    .callout-title {
+      display: none;
+    }
+    > .callout-content {
+      padding-top: 3rem;
+      padding-bottom: 2rem;
+      font-size: 2rem;
+      text-align: center;
+      
+      // Target the paragraph inside
+      p {
+        font-weight: 900;
+        line-height: 2;
+      }
+    }
+  }
 }
 
 // بولد کردن متن تمام عنوان‌ها
