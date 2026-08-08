@@ -5,7 +5,7 @@ cssclasses:
 comments: true
 created: 2026-06-26
 draft: false
-enableToc: false
+enableToc: true
 ---
 
 

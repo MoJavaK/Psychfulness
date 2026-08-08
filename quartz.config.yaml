@@ -155,7 +155,7 @@ plugins:
       groupOptions:
         grow: true
   - source: github:quartz-community/backlinks
-    enabled: true
+    enabled: false
     layout:
       position: afterBody
       priority: 50
@@ -212,7 +212,18 @@ plugins:
       links:
         GitHub: https://github.com/mojavak
   - source: github:quartz-community/recent-notes
-    enabled: false
+    enabled: true
+    options:
+      title: یادداشت‌های اخیر
+      limit: 3
+      linkToMore: false
+      showTags: false
+      hideTagPages: true
+      hideFolderPages: true
+    layout:
+      position: right
+      priority: 25
+      display: desktop-only
   - source: github:quartz-community/spacer
     enabled: true
     options: {}
