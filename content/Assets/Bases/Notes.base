@@ -1,0 +1,14 @@
+views:
+  - type: cards
+    name: Table
+    groupBy:
+      property: featured
+      direction: ASC
+    order:
+      - file.name
+      - featured
+      - order
+    sort:
+      - property: order
+        direction: ASC
+    image: note.Image

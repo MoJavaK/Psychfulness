@@ -6,8 +6,9 @@ modified:
 draft: false
 comments: true
 status:
-Image:
-  - "[[Self_Awareness.png]]"
+image: /attachment/sunflower.jpg
+featured: true
+order: 4
 ---
 خود شناسی مسیری است که از آگاهی ناشناخته‌های درون ما در اعماق ناخودآگاه شروع می‌شود. این مسیر با شناختن الگوهای ناخودآگاه آغاز شده و با کنترل این الگوها و ساخت الگوهای جدید توسط خودآگاه و با اراده انسان ادامه می‌یابد.
 

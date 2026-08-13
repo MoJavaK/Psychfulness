@@ -67,6 +67,20 @@ plugins:
   - source: ./plugins/bidi-text
     enabled: true
     order: 35
+  - source: ./plugins/featured-cards
+    enabled: true
+    layout:
+      position: beforeBody
+      priority: 7
+      component: FeaturedCards
+  - source: ./plugins/featured-cards
+    enabled: true
+    order: 36
+    layout:
+      position: beforeBody
+      priority: 22
+      condition: not-index
+      component: FeaturedImage
   - source: github:quartz-community/github-flavored-markdown
     enabled: true
     order: 40
@@ -84,6 +98,7 @@ plugins:
       position: beforeBody
       priority: 60
       display: mobile-only
+      condition: not-index
   - source: github:quartz-community/crawl-links
     enabled: true
     options:
@@ -311,7 +326,7 @@ plugins:
       showComma: false
       showReadingTime: false
     layout:
-        position: beforeBody
+      position: beforeBody
     priority: 20
 layout:
   groups:

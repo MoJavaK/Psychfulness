@@ -127,6 +127,12 @@
       "commit": "85842d5c15f937a3d1a02c45accee27118146d73",
       "installedAt": "2026-06-06T15:08:19.956Z"
     },
+    "featured-cards": {
+      "source": "C:\\Users\\MoJav\\Apps\\quartz\\plugins\\featured-cards",
+      "resolved": "C:\\Users\\MoJav\\Apps\\quartz\\plugins\\featured-cards",
+      "commit": "local",
+      "installedAt": "2026-08-12T20:39:23.357Z"
+    },
     "folder-page": {
       "source": "github:quartz-community/folder-page",
       "resolved": "https://github.com/quartz-community/folder-page.git",
